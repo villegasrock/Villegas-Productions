@@ -1,5 +1,5 @@
 const { app, BrowserWindow, dialog, ipcMain } = require('electron');
-import path from 'node:path';
+const path = require('node:path');
 import { fileURLToPath } from 'node:url';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
