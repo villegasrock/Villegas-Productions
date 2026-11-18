@@ -1,4 +1,4 @@
-import { app, BrowserWindow, dialog, ipcMain } from 'electron';
+const { app, BrowserWindow, dialog, ipcMain } = require('electron');
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 
