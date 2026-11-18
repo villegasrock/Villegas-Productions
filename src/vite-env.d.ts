@@ -1,3 +1,5 @@
+/// <reference types="vite/client" />
+
 interface VillegasAPI {
   openAudio: () => Promise<string | null>;
 }
